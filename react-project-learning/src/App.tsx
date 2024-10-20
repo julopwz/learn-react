@@ -1,17 +1,14 @@
+import { Footer } from "./componentes/Footer"
 import { Navbar } from "./componentes/navbar"
+import { Section } from "./componentes/Section"
 
 function App() {
 
   return (
     <>
-      <Navbar />
-     <section>
-      <div> <h1>section 1</h1></div>
-      <div> <h2>section 2</h2></div>
-     </section>
-     <footer>
-      <h1> Footer</h1>
-     </footer>
+    <Navbar />
+     <Section />
+     <Footer />
     </>
   )
 }
