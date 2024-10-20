@@ -1,11 +1,17 @@
+import { Navbar } from "./componentes/navbar"
 
 function App() {
 
   return (
     <>
-      <div>
-        <h1>hello word</h1>
-      </div>
+      <Navbar />
+     <section>
+      <div> <h1>section 1</h1></div>
+      <div> <h2>section 2</h2></div>
+     </section>
+     <footer>
+      <h1> Footer</h1>
+     </footer>
     </>
   )
 }
